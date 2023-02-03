@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Favorite artists</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <style>
+      .card {
+        border-radius: 1em;
+        text-align: center;
+        padding: 0.4em;
+      }
+      .card:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .card img {
+        border-radius: 1em;
+        width: 100%;
+        margin: auto;
+      }
+      video {
+        width: 400px;
+        margin-top: 1em;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand p-0" href="/">
+          <img src="CP.png" alt="Logo" wigth="20" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="places.html">Favorite places</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="favorite artists.html"
+                >Favorite artists</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+        <div class="col">
+          <div class="card">
+            <img src="13-karat.jpg" class="card-img-top" alt="Тринадцать карат" />
+            <div class="card-body">
+              <h5 class="card-title">Тринадцать карат</h5>
+              <p class="card-text">
+                Музыкальный исполнитель в жанре русского инди рока.
+              </p>
+              <a href="https://hypestar.ru/person/trinadczat-karat/" target="_blank" class="btn btn-primary">Биография</a>
+            </div>
+          </div>
+          <video src="13 карат - одна.mp4" controls></video>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="macan.jpg" class="card-img-top" alt="MACAN" />
+            <div class="card-body">
+              <h5 class="card-title">MACAN</h5>
+              <p class="card-text">
+               Музыкальный исполнитель в жанре лирического рэпа.
+              </p>
+              <a href="https://hypestar.ru/person/macan/" target="_blank" class="btn btn-primary">Биография</a>
+            </div>
+          </div>
+          <video src="MACAN — Веселящий газ (Official Music Video).mp4" controls></video>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="jaryy.jpg" class="card-img-top" alt="Jarry" />
+            <div class="card-body">
+              <h5 class="card-title">Jarry</h5>
+              <p class="card-text">
+               Музыкальный исполнитель в жанре русского hip-hop.
+              </p>
+              <a href="/" target="_blank" class="btn btn-primary">Биография</a>
+            </div>
+          </div>
+          <video src="Jarry - Hellboy (Премьера клипа, 2019).mp4" controls></video>
+    </div>
+  </body>
+</html>
